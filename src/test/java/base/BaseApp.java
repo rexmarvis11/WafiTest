@@ -101,18 +101,6 @@ public class BaseApp {
 //        driver.quit();
     }
 
-//    public void setUpDriver(String browserName) {
-//
-//        if (browserName.equalsIgnoreCase("chrome")) {
-//            WebDriverManager.chromedriver().setup();
-//            driver = new ChromeDriver();
-//        } else if (browserName.equalsIgnoreCase("firefox")) {
-//            WebDriverManager.firefoxdriver().setup();
-//            driver = new FirefoxDriver();
-//        }
-//
-//    }
-
     public void setUpDriver1() throws IOException {
 
         if (driver == null) {

@@ -7,8 +7,7 @@
     <test name="Functional Test">
 <!--        <parameter name="browserName" value="Chrome"/>-->
         <classes>
-            <class name="test.java.testcases.TC001_LoginTest"/>
-            <class name="test.java.testcases.TC002_CheckDashboard"/>
+            <class name="test.java.testcases.HomePage"/>
         </classes>
     </test> <!-- Test -->
 </suite> <!-- Suite -->

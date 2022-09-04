@@ -15,8 +15,4 @@ public class Events extends BaseApp {
         action.moveToElement(elem.getWebElement(locator, value));
         action.build().perform();
     }
-    public String getText(String locator, String value) {
-    String txt = elem.getWebElement(locator, value).getText();
-        return txt;
-    }
 }
